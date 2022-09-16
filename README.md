@@ -49,19 +49,51 @@ Prover qualquer tipo de solução. Inciar, configurar e finalizar. Exemplo: EC2 
 <p>Responsabilidades  a AWS: Segurança DA cloud</p>
 <p>Responsabilidades do Cliente: Segurança NA cloud <p>
 
+<p>Responsabilidades  a AWS: Segurança DA cloud</p>
+<p>Responsabilidades do Cliente: Segurança NA cloud <p>
 
+<h2>CLI e CLOUDSHELL</h2>
+<h3>Maneiras de acessar</h3>
+<p>1.Console</p>
+Na propria interface da AWS
+<p>2.CLI</p>
+Utilizando o terminal pessoal
+<p>3.CLOUDSHELL</p>
+Via Browser na conta AWS
+
+
+<h2>Infraestrutura Global AWS</h2>
+
+<p>A Nuvem AWS abrange 87 zonas de disponibilidade em 27 regiões geográficas em todo o mundo, com planos já divulgados para mais 21 zonas de disponibilidade e outras 7 regiões da AWS na Austrália, Canadá, Índia, Israel, Nova Zelândia, Espanha e Suíça.<p>
+<p>245 países e territórios atendidos</p>
+<p>115 locais do Direct Connect</p>
+<p>17 zonas locais e 28 zonas Wavelenght</p>
+
+<h2>Regiões da AWS</h2>
+<p>Exemplo:USA=US-EAST-1,(País-area,regiao)</p>
 			
 
-	
+<h2>Zonas de Disponibilidade</h2>
+<p>Dentro da região existem os Datacenters, e estes são chamados de Zonas de Disponibilidade</p>
+<p>Exemplo: Dentro da região US-EAST existem 3 zonas de disponibilidade: 2a, 2b e 2c, caso posteriormente fosse criado uma nova zona ela seguiria o mesmo padrão: 2d, 2e, etc. Por causa dalatência as zonas de disponibilidade não podem estar longes uma das outras, mas ao mesmo tempo não podem estar muito perto, pois são backups. 100kms normalmente separam as zonas de disponibilidade</p>
 
+<h2>Zonas locais</h2>
+<p>São datacenter menores, conectados nas zonas de Disponibilidades para que o usuário final possa estar mais próximo dos serviços.É ideal para conexões de Streaming por exemeplo</p>
+
+<h2>Wavelenght</h2>
+<p>São os equipamentos da AWS dentro das provedoras, para que a conexão final entre cliente e serviço seja facilitada</p>
 			
-			
+<h2>AWS Outposts</h2>
+<p>Nessa modalidade, a AWS aloca seus recursos e equipamentos dentro da empresa que deseja uma melhor conexão</p
 
+<h1>IAM</h1>
 
+<p>Com o AWS identify and Access Management (IAM), você pode especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões refinadas de maneira centralizada e analisar o acesso para refinar permissões</p>
 
-							
+![image](https://user-images.githubusercontent.com/103517751/190635231-d4d85c15-4b91-45f2-9daf-c7820bcff47a.png)
+<br>Todas as interações</br>
 
-
+                                                                                                                                         
 		
 		
 		
