@@ -86,7 +86,7 @@ Via Browser na conta AWS
 <h2>AWS Outposts</h2>
 <p>Nessa modalidade, a AWS aloca seus recursos e equipamentos dentro da empresa que deseja uma melhor conexão</p
 
-<h1>IAM</h1>
+<h1>AWS identify and Access Management (IAM)</h1>
 
 <p>Com o AWS identify and Access Management (IAM), você pode especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões refinadas de maneira centralizada e analisar o acesso para refinar permissões</p>
 
