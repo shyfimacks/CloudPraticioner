@@ -54,12 +54,17 @@ Prover qualquer tipo de solução. Inciar, configurar e finalizar. Exemplo: EC2 
 
 <h2>CLI e CLOUDSHELL</h2>
 <h3>Maneiras de acessar</h3>
-<p>1.Console</p>
-Na propria interface da AWS
-<p>2.CLI</p>
-Utilizando o terminal pessoal
-<p>3.CLOUDSHELL</p>
-Via Browser na conta AWS
+
+<p>Console</p>
+<br>Na propria interface da AWS<br>
+			
+			
+<p>CLI</p>
+<br>Utilizando o terminal pessoal<br>
+			
+			
+<p>CLOUDSHELL</p>		
+<br>Via Browser na conta AWS<br>
 
 
 <h2>Infraestrutura Global AWS</h2>
@@ -84,11 +89,17 @@ Via Browser na conta AWS
 <p>São os equipamentos da AWS dentro das provedoras, para que a conexão final entre cliente e serviço seja facilitada</p>
 			
 <h2>AWS Outposts</h2>
-<p>Nessa modalidade, a AWS aloca seus recursos e equipamentos dentro da empresa que deseja uma melhor conexão</p
+<p>Nessa modalidade, a AWS aloca seus recursos e equipamentos dentro da empresa que deseja uma melhor conexão</p>
 
-*AWS identify and Access Management (IAM)
+<h2>AWS identify and Access Management</h2>
 
-<p>Com o AWS identify and Access Management (IAM), você pode especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões refinadas de maneira centralizada e analisar o acesso para refinar permissões</p>
+Com o AWS identify and Access Management (IAM), você pode especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões refinadas de maneira centralizada e analisar o acesso para refinar permissões. É importante atribuir limite de acesso aos serviços para esses usuários visando a proteção dos seus dados. Para isso você pode reunir os usuários em grupos e conceder a esse grupo permissão para realizar algumas operações e outras não.
+
+<h3>Melhores práticas para o uso do IAM</h3>
+Criar usuários totalmente individuais
+<br>Realizar o gerenciamento das permissões diretamente nos grupos
+<br>Conceda sempre o menor privilégio
+<br>Reduza ou remova completamente o uso da conta root
 
 ![image](https://user-images.githubusercontent.com/103517751/190635231-d4d85c15-4b91-45f2-9daf-c7820bcff47a.png)
 <br>Todas as interações</br>
